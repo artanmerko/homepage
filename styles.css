@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rock+Salt|Shadows+Into+Light|Cedarville+Cursive');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: lightblue;
+}
+.navbar{
+  background: #e0f2fe;
+}
+.nav-link{
+  font-family: cursive;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+.nav-link:hover, .navbar-brand:hover{
+  color: white;
+  background: black;
+}
+.navbar-brand{
+  font-family: 'Rock Salt', cursive;
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+}
+.main h4{
+  font-size: 3rem;
+}
+.main h2{
+  font-size: 4.4rem;
+  font-weight: 700;
+}
+.main h3{
+  font-size: 1.4rem;
+  line-height: 1;
+  border-bottom: 3px solid black;
+  width: 53%;
+  text-transform: uppercase;
+}
+section {
+  font-family: cursive;
+}
+.main .py-5 img{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+section .row{
+ justify-content: center;
+ text-align: left;
+}
+.main .bt1{
+  color: white;
+  height: 55px;
+  width: 138px;
+  background-color: black;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.main .bt1:hover{
+  color: black;
+  background:lightslategray;
+  border: 2px solid black;
+}
+.main .bt2{
+  color: black;
+  height: 55px;
+  width: 138px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.main .bt2:hover{
+  color:white;
+  background: lightslategray;
+}
+.about img{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.about p{
+  font-family: Georgia, serif;
+  font-size: 18px;
+  text-align: justify;
+}
+.about h3{
+  font-size: 2.8rem;
+}
+.about h6{
+  font-weight: bold;
+  font-family: Georgia, serif;
+}
+
+.icon svg{
+  margin: 2px;
+  padding: 10px;
+  justify-content: space-between ;
+}
+.qoute p{
+  font-size: 1.6rem;
+  padding-top: 80px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+.card{
+  font-family: Georgia, serif;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.card p{
+  color: gray;
+}
+.circle{
+  height: 70px;
+  width: 70px;
+  padding: 12px;
+  font-size: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 20px;
+}
