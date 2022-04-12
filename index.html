@@ -19,9 +19,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <a class="nav-link px-lg-4 rounded" href="#">About</a>
-                <a class="nav-link px-lg-4 rounded" href="#">Projects</a>
-                <a class="nav-link px-lg-4 rounded" href="#">Contact</a>
+                <a class="nav-link px-lg-4 rounded" href="#aboutme">About</a>
+                <a class="nav-link px-lg-4 rounded" href="#myprojects">Projects</a>
+                <a class="nav-link px-lg-4 rounded" href="#contactme">Contact</a>
             </ul>
           </div>
         </div>
@@ -35,14 +35,15 @@
                     <h4><small>Hello, I'm</small></h4>
                     <h2>Artan</h2>
                     <h3>Full Stack Web-Developer</h3>
-                    <input type="button" value="About Me" class="bt1 mt-5">
-                    <input type="button" value="My Projects" class="bt2 mt-2">
+                    <a href="#aboutme"><input type="button" value="About Me"  class="bt1 mt-5"></a>
+                    <a href="#myprojects"><input type="button" value="My Projects" class="bt2 mt-2"></a>
+
                 </div>
             </div>
         </div>
     </section>
         <!-- about section -->
-    <section class="about py-5 bg-opacity-10">
+    <section class="about py-5 bg-opacity-10" id="aboutme">
         <div class="container ">
             <div class="row">
                 <div class="col-lg-5">
@@ -71,7 +72,7 @@
             </div>
         </div>
     </section>
-    <section class="Projects py-5 bg-light">
+    <section class="Projects py-5 bg-light" id="myprojects">
         <div class="container py-5">
             <h1 class="text-center pb-5">My Work</h1>
             <div class="row pb-3">
@@ -146,7 +147,7 @@
             </div>
         </div>
     </section>
-    <section class="contact py-5 bg-light">
+    <section class="contact py-5 bg-light" id="contactme">
         <div class="container py-5">
             <h1 class="text-center">Contact Me</h1>
             <div class="row py-5">
@@ -192,7 +193,8 @@
                             <textarea name="" class="form-control bg-light" placeholder="Message" cols="30" rows="10"></textarea>
                         </div>
                     </div>
-                    <button class="btn3 my-4">Submit</button>
+                    <div class="btn3">
+                    <a href="mailto:artanmerko@gmail.com">Submit</a></div>
                 </form>
             </div>
         </div>
