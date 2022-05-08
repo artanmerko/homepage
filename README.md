@@ -1,6 +1,6 @@
 # CS50X PROJECT: Homepage
 ## A simple homepage using HTML, CSS, and JavaScript.
-<br>
+
 ## CS50X [Link](https://cs50.harvard.edu/x/2022/psets/8/homepage/)<br>
 The internet has enabled incredible things: we can use a search engine to research anything imaginable, communicate with friends and family members around the globe, play games, take courses, and so much more. But it turns out that nearly all pages we may visit are built on three core languages, each of which serves a slightly different purpose:
 
