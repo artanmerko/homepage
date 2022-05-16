@@ -151,8 +151,7 @@ section .row{
   transition: 0.4s;
 }
 footer{
-  background: lightseagreen;
-  color: white;
+  background: #e0f2fe;
   font-family: 'Courier New', monospace;
   font-size: 20px;
   font-weight: 600;
